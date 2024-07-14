@@ -11,7 +11,7 @@ const server = require("http").createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-with-rudram.netlify.app/",
     methods: ["GET", "POST"]
   }
 });
